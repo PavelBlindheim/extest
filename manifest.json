@@ -1,7 +1,7 @@
 {
 
     "description": "testing extentions",
-    "manifest_version": 1,
+    "manifest_version": 2,
     "name": "test",
     "version": "1.0",
     "homepage_url": "https://github.com/PavelBlindheim/extest",
@@ -11,7 +11,7 @@
 
     "content_scripts": [
         {
-            "matches": ["*://*.mozilla.org/*"],
+            "matches": ["*://*.faceit.com/*/csgo/room/*"],
             "js": ["testscript.js"]
         }
     ]
