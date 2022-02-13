@@ -1,0 +1,18 @@
+{
+
+    "description": "testing extentions",
+    "manifest_version": 1,
+    "name": "test",
+    "version": "1.0",
+    "homepage_url": "https://github.com/PavelBlindheim/extest",
+    "icon": {
+        "48": "icons/picture-48.png"
+    },
+
+    "content_scripts": [
+        {
+            "matches": ["*://*.mozilla.org/*"],
+            "js": ["testscript.js"]
+        }
+    ]
+}
